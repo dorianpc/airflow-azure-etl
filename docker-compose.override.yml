@@ -1,0 +1,6 @@
+version: "3.1"
+services:
+  scheduler:
+    volumes:
+      - ./pipelines:/usr/local/airflow/pipelines
+      - ./data:/usr/local/airflow/data
